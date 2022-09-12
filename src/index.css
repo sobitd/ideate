@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f28500;
+  margin-bottom: 0.625rem;
+  border-radius: 0.625rem;
+  padding: 1rem;
+  min-height: 200px;
+
+}
