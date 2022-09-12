@@ -13,6 +13,14 @@ code {
 }
 
 
+.notes-collection{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+
+}
+
+
 .note {
   display: flex;
   flex-direction: column;
@@ -21,6 +29,11 @@ code {
   margin-bottom: 0.625rem;
   border-radius: 0.625rem;
   padding: 1rem;
-  min-height: 200px;
+  min-height: 12rem;
+}
 
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
