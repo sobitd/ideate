@@ -1,16 +1,11 @@
 import Note from "./Note";
+import AddNewNote from "./AddNewNote";
 
 const NotesCollection = () => {
   return (
     <div className="notes-collection">
       <Note />
-      <Note />
-      <Note />
-      <Note />
-      <Note />
-      <Note />
-      <Note />
-      <Note />
+      <AddNewNote />
     </div>
   );
 };
