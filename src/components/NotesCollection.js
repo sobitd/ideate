@@ -1,3 +1,5 @@
+import Note from "./Note";
+
 const NotesCollection = () => {
   return (
     <div className="notes-collection">

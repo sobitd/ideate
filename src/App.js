@@ -1,5 +1,11 @@
+import NotesCollection from "./components/NotesCollection";
+
 const App = () => {
-  return <h2>ideate soon ..</h2>
-}
+  return (
+    <div className="container">
+      <NotesCollection />
+    </div>
+  );
+};
 
 export default App;
