@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -13,17 +14,17 @@ code {
 }
 
 
-.container{
+.container {
   max-width: 1000px;
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
 }
- 
-.notes-collection{
+
+.notes-collection {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 
 }
 
@@ -39,7 +40,22 @@ code {
   min-height: 12rem;
 }
 
-.note-footer{
+.new-note{
+  background-color: purple;
+}
+
+textarea {
+  border:none;
+  resize: none;
+  background-color:black;
+  padding: 20px;
+  color: whitesmoke;
+}
+textarea:focus{
+  outline: none;
+}
+
+.note-footer,.note-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
