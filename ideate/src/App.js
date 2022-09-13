@@ -2,14 +2,15 @@ import NotesCollection from "./components/NotesCollection";
 import Navbar from "./components/navbar";
 import React, { useEffect, useState } from "react";
 const App = () => {
-
-  const[notes,setNotes] = useState([]);
+  const [dispNotes, setDispNotes] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9292/notes")
-    .then((res) => res.json())
-    .then((notes) => setNotes(notes))
-  },[]);
+    fetch("https://ideatenotes.herokuapp.com/notes")
+      .then((res) => res.json())
+      .then((dispNotes) => {
+        setDispNotes(dispNotes);
+      });
+  }, []);
 
   return (
     <div>
@@ -17,7 +18,7 @@ const App = () => {
         <Navbar />
       </header>
       <main class="container">
-        <NotesCollection notes = {notes}/>
+        <NotesCollection notes={dispNotes} />
       </main>
     </div>
   );
