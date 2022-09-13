@@ -1,17 +1,20 @@
-import { MdArrowBackIos } from "react-icons/md";
+import React from "react";
+import { MdKeyboardArrowLeft } from "react-icons/md";
 
-const AddNewNote = () => {
-  return (
+function AddNewNote(props) {
+  return props.trigger ? (
     <div className="note new-note">
-      <div className="note-footer">
+      <div className="note-header">
         <button className="back">
-          <MdArrowBackIos className="back-icon" />
+          <MdKeyboardArrowLeft className="back-icon" />
         </button>
         <button className="save">Save</button>
       </div>
       <textarea rows="2" placeholder="Title"></textarea>
       <textarea rows="10" cols="10" placeholder="Type somenthing..."></textarea>
     </div>
+  ) : (
+    ""
   );
-};
+}
 export default AddNewNote;

@@ -1,11 +1,13 @@
 import Note from "./Note";
 import AddNewNote from "./AddNewNote";
+import { VscAdd } from "react-icons/vsc";
 
 const NotesCollection = () => {
   return (
     <div className="notes-collection">
       <Note />
-      <AddNewNote />
+      <button><VscAdd/></button>
+      <AddNewNote trigger={true} />
     </div>
   );
 };
