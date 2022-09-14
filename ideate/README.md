@@ -7,9 +7,9 @@ Ideate is a productivity application that make it possible to articles,quotes an
 * Overview0
 * User Stories
 * My process
-* Built with
-* What I learned
-* Continued development
+* Technologies Used
+* Challenges
+* Future Plans
 * License
 * Author
 ## Overview
@@ -22,11 +22,32 @@ Users should be able to:
 * Delete saved notes and articles
 * Create new notes and add  articles
 
-## 
+## Development Process
+* Sought to find out user needs with respect to productivity online. Found out users wanted a free application that works as similar as competitors.
+* Outsourced figma designs from Amal [https://dribbble.com/shots/11875872/attachments/3501130?mode=media]
+* Designed Entity Relationship(ER) for the Database
+* Build the Backend using Ruby ActiveRecord and SQLite3
+* Built server API using Sinatra 
+* Bult the Frontend using React and CSS and Fetch API
+* Deployed the backend on Heroku and the frontend on Vercel
+ 
+
+## Technologies Used
+
+* Ruby and  ActiveRecord
+* SQ3Lite3 
+* Sinatra
+* React
+* CSS
 
 In the project directory, you can run:
 
-### `npm start`
+## Challenges
+
+* Deploying to Heroku was a challenge as the backend application kept on failing. I managed to solve the issue and the server is up and running  on Heroku
+* Rusty React skills which consumed alot of time trying to build the frontend application
+
+## 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
