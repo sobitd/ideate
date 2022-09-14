@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AddNewNote() {
+function AddNewNote( {onAddNewNote}) {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [submittedNote, setSubmittedNote] = useState([]);
@@ -30,7 +30,8 @@ function AddNewNote() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
-    }).then((r) => r.json());
+    }).then((r) => r.json())
+    .then((newNote) => onAddNewNote(newNote))
   }
 
   return (
