@@ -6,7 +6,7 @@ const NotesCollection = ({ notes }) => {
   return (
     <div className="notes-collection">
       {notes.map((note) => (
-        <Note id={note.id} title={note.title} content={note.content} />
+        <Note title={note.title} content={note.content} />
       ))}
       <AddNewNote />
     </div>
