@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Ideate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ideate is a productivity application that make it possible to articles,quotes and interesting articles you've found online for later reading.
 
 ## Available Scripts
 
