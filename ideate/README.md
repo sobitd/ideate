@@ -2,6 +2,16 @@
 
 Ideate is a productivity application that make it possible to articles,quotes and interesting articles you've found online for later reading.
 
+## Table of Contents
+
+* Overview0
+* User Stories
+* My process
+* Built with
+* What I learned
+* Continued development
+* License
+* Author
 ## Available Scripts
 
 In the project directory, you can run:
