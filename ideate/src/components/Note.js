@@ -1,7 +1,7 @@
 import { AiOutlineDelete } from "react-icons/ai";
 import React from "react";
 
-const Note = ({id,title,content}) => {
+const Note = ({title,content}) => {
   return (
     <div className="note">
       <h2> {title}</h2>
