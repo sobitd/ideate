@@ -12,7 +12,17 @@ Ideate is a productivity application that make it possible to articles,quotes an
 * Continued development
 * License
 * Author
-## Available Scripts
+## Overview
+The application is simplistic in that the user only needs to type in the article, save and return to read their articles at a later time.
+
+## User Stories
+Users should be able to:
+* View saved notes and articles
+* Edit saved notes and articles
+* Delete saved notes and articles
+* Create new notes and add  articles
+
+## 
 
 In the project directory, you can run:
 
